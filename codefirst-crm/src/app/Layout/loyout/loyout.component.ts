@@ -59,9 +59,9 @@ export class LoyoutComponent {
       color: '#ff7f0e',
       subMenu: [
         {
-          title: 'Sales',
+          title: 'Add Candidte',
           icon: 'money',
-          link: '/sales',
+          link: '/user/candidate',
           color: '#ff7f0e',
         },
         {

@@ -15,18 +15,18 @@ export class addCandidate{
         reference: string
 
         constructor(){
-            this.candidateId=0;
-            this.name= ""
-            this.contactNo= ""
-            this.email= ""
-            this.password= ""
-            this.createdDate= ""
-            this.city= ""
-            this.collegeName= ""
-            this.education= ""
-            this.bankName= ""
-            this.accNo= ""
-            this.ifscCode= ""
+            this.candidateId=0,
+            this.name= "",
+            this.contactNo= "",
+            this.email= "",
+            this.password= "",
+            this.createdDate= "2024-01-12T13:58:25.348Z",
+            this.city= "",
+            this.collegeName= "",
+            this.education= "",
+            this.bankName= "",
+            this.accNo= "",
+            this.ifscCode= "",
             this.reference= ""
         }
       

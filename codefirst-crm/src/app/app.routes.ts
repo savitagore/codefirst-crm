@@ -16,6 +16,10 @@ export const routes: Routes = [
             path: 'home',
             component: HomeComponent
           },
+          {
+            path:'user',
+            loadChildren : () => import('././Pages/Users/users/users.module').then(m => m.UsersModule)
+          }
          
         ]
       }

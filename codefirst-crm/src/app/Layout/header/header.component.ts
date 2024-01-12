@@ -3,6 +3,7 @@ import{CommonMatModule } from '../../common-mat/common-mat.module'
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { RouterLink } from '@angular/router';
 
 
 
@@ -10,7 +11,7 @@ import { MatMenuModule } from '@angular/material/menu';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonMatModule,MatToolbarModule,MatIconModule,MatMenuModule],
+  imports: [CommonMatModule,MatToolbarModule,MatIconModule,MatMenuModule,RouterLink],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
