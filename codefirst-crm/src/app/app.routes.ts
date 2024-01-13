@@ -20,6 +20,10 @@ export const routes: Routes = [
           {
             path:'table',
             component:TableComponent
+          },
+          {
+             path:'user',
+            loadChildren : () => import('././Pages/Users/users/users.module').then(m => m.UsersModule)
           }
 
         ]

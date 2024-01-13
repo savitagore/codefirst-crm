@@ -1,7 +1,7 @@
 <div>
     <app-header (menuToggled)="toggle()"></app-header>
 
-    <mat-drawer-container>
+    <mat-drawer-container scroll="smooth">
       <mat-drawer mode="side" [opened]="opened">
         <app-menu-item [menu]="menu"></app-menu-item>
       </mat-drawer>
