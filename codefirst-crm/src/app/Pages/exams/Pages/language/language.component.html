@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+            <mat-card>
+
+                <mat-card-content>
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <!-- <mat-form-field class="example-full-width mt-5">
+                                    <mat-label>Select Language</mat-label>
+                                    <input type="text" placeholder="Pick Language" aria-label="Number" matInput
+                                        [formControl]="myControl" [matAutocomplete]="auto">
+                                    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+                                        @for (option of filteredOptions | async; track option) {
+                                        <mat-option  *ngFor="let option of options" [value]="option.language">{{option.language}}</mat-option>
+                                        }
+                                    </mat-autocomplete>
+                                </mat-form-field> -->
+
+                                <mat-form-field class="example-full-width mt-5">
+                                    <mat-label>Select Language</mat-label>
+                                    <input type="text" placeholder="Pick Language" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+                                    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+                                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option.languageId">
+                                        {{ option.language }}
+                                      </mat-option>
+                                    </mat-autocomplete>
+                                  </mat-form-field>
+                            </div>
+                        </div>
+                    </form>
+                </mat-card-content>
+
+            </mat-card>
+        </div>
+    </div>
+</div>

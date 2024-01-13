@@ -116,9 +116,9 @@ export class LoyoutComponent {
       color: '#ff7f0e',
       subMenu: [
         {
-          title: 'Sales',
+          title: 'Language Topics',
           icon: 'money',
-          link: '/sales',
+          link: '/exam/language',
           color: '#ff7f0e',
         },
         {
